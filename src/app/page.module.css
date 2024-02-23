@@ -1,14 +1,23 @@
-.main{
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
+.main {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
 }
 
-.body{
-    width: 1000px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.body {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.logo {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  top: 80px;
 }
